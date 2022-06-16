@@ -30,7 +30,7 @@ const CreateTask = ({ id, text, tasks, setTasks, counter, setCounter }) => {
 				className={`todo-item_remove ${!showRemove ? "hidden" : ""}`}
 				id={id}
 				onClick={removeTodoHandler}>
-				❌
+				x
 			</span>
 		</li>
 	);

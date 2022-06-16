@@ -62,7 +62,7 @@ const Todos = () => {
 									className="todo-item__remove"
 									onClick={() => deleteTask(i)}
 									role="img">
-									❌
+									x
 								</span>
 							)}
 						</li>

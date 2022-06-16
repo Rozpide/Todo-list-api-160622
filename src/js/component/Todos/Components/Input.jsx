@@ -31,7 +31,7 @@ const Input = ({
 
 	return (
 		<input
-			placeholder="What needs to be done?"
+			placeholder="¿Que tareas hay pendientes?"
 			type="text"
 			value={input}
 			onChange={setInputHandler}
